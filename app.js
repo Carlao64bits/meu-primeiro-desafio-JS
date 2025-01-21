@@ -1,11 +1,14 @@
-alert('Boas vindas ao jogo do número secreto'); 
-let numeroSecreto = 4; 
-console.log(numeroSecreto)
-let chute = prompt('Escolha um número entre 1 e 10');
+//Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!". 
 
-// se chute for igual ao número secreto 
-if (chute == numeroSecreto) {
-    alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto}`);
+let diaSegTerQua = prompt('qual é o dia da semana?'); 
+
+
+ console.log(diaSegTerQua)
+ 
+
+if (diaSegTerQua ==='sabado' || diaSegTerQua ==='domingo') {
+    alert('Bom fim de semana!');
 } else {
-    alert('Você errou :(')
-}
+    alert('Boa semana!');
+} 
+
